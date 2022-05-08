@@ -38,4 +38,4 @@ The top 3 features contributing significantly towards explaining the demand of t
 
 ## Contact
 Assignment submitted by Yogesh Kolhe. 
-https://github.com/yoyoyogesh/Bike_Sharing_Assignment- feel free to contact us!
+https://github.com/yoyoyogesh/Bike_Sharing_Assignment- feel free to contact me!
