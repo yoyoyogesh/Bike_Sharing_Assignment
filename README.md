@@ -10,25 +10,32 @@ To model the demand for shared bikes with the available independent variables. I
 
 ## Table of Contents
 * Objectives
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
-
-<!-- You can include any other section that is pertinent to your problem -->
+* Problem solving methodology: General Approach
+* Analysis (Univariate Analysis, Bi-variate Analysis along with visual Representation)
+* Subjective Questions and answers
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+Identified and removed redundant and unnecessary columns from the ‘day’ data set (Bike share data set)
+• Performed data cleaning on ‘day’ data sets to remove the junk data (Columns having 100% null values and rows
+where the entire row is having null values) and the data which is not required for analysis
+• Analyzed the variables and their different data types, also performed null value checks for the variables.
+Data Cleaning and Manipulation
+• Data quality issues are addressed in the right way (missing value imputation, outlier treatment and other kinds of data redundancies
+• Wherever applicable, data is converted to a suitable and convenient format to work with using the right methods for e.g. categorical variables converted into dummy variables in order build the model.
+• Splitting into train and test sets is done
+• Rescaling is done to optimize the beta coefficients
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+## Technologies Used
+- numpy - version 1.20.3
+- pandas - version 1.3.4
+- seaborn - version 0.11.2
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+The top 3 features contributing significantly towards explaining the demand of the shared bikes
+1. Spring
+2. Light snow
+3. 2019
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
+## Contact
+Assignment submitted by Yogesh Kolhe. 
+https://github.com/yoyoyogesh/Bike_Sharing_Assignment- feel free to contact us!
